@@ -5,4 +5,4 @@ This is a customizable random user password generator. It asks for length of pas
 [Password Generator](https://layc41.github.io/password-generator/)
 
 # Screen Shots
-![Main](/screen-shot.png)
+![Main](./develop/screen-shot.png)
