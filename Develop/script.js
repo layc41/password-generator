@@ -68,14 +68,14 @@ function writePassword() {
     }
 
 //  Confirm what parameters are for password
-  var passwordText = {
-    length: charCount,
-    lower: lowerCase,
-    upper: upperCase,
-    number: num,
-    special: specialChar
-  }
-  console.log(passwordText);
+  // var passwordText = {
+  //   length: charCount,
+  //   lower: lowerCase,
+  //   upper: upperCase,
+  //   number: num,
+  //   special: specialChar
+  // }
+  // console.log(passwordText);
 
   var password = ""
 
