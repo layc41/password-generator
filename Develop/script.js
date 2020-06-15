@@ -14,7 +14,7 @@ var randomUpper = function () {
   var upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   return upper[Math.floor(Math.random() * upper.length)];
 }
-// console.log(randomUpper());
+//console.log(randomUpper());
 
 var randomNumber = function () {
   var num = '123456790';
@@ -41,6 +41,7 @@ var randomFunc = function () {
 
 // Write password to the #password input
 function writePassword() {
+
   // Prompts for parameters related to password
   var charCount = prompt("How many characters? (Between 8 - 128 characters)");
     if (charCount < 8 | charCount > 128 | isNaN(charCount) == true) {
@@ -66,15 +67,15 @@ function writePassword() {
       return alert("Please select valid characters.")
     }
 
-  // Confirm what parameters are for password
-  // var passwordText = {
-  //   length: charCount,
-  //   lower: lowerCase,
-  //   upper: upperCase,
-  //   number: num,
-  //   special: specialChar
-  // }
-  // console.log(passwordText);
+//  Confirm what parameters are for password
+  var passwordText = {
+    length: charCount,
+    lower: lowerCase,
+    upper: upperCase,
+    number: num,
+    special: specialChar
+  }
+  console.log(passwordText);
 
   var password = ""
 
@@ -92,7 +93,7 @@ function writePassword() {
 
   // generatePassword function
   var password = generatePassword();
-
+  randomFuncArr.length = 0;
 }
 
 // Add event listener to generate button

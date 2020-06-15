@@ -1,13 +1,8 @@
 # Password Generator
-
-
-# Horiseon-Project
-Refactored Horiseon website to improve accessibility. Horiseon is a social solution service organization. We optimize search engines to increase visibility and finding the right customers for your buiness, manage online reputation to control what potential customers search for you business, and help decide what social media platforms are best for producing leads for your business. Our processes and technology generate leads, increase brand awareness, and reduce advertising costs for your business to thrive.
+This is a customizable random user password generator. It asks for length of password from 8 - 128 characters. Then asks for character types to be included in the password. Types of characters available are lowercase, uppercase, numbers, and symbols. If the amount of characters are out of range and no character types are selected, then a password cannot be generated.
 
 # Link to Deployed Application
-[Horiseon Website](https://layc41.github.io/Horiseon-Project/)
+[Password Generator](https://layc41.github.io/password-generator/)
 
 # Screen Shots
-![Main](/Horiseon-Main.png)
-![Main](/Horiseon-screenshot2.png)
-![Main](/Horiseon-screenshot3.png)
+![Main](/screen-shot.png)
